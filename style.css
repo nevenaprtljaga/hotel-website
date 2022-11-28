@@ -34,8 +34,10 @@ h1 {
 }
 .about-text{
     position: absolute;
-    top: 10rem;
-    left: 3rem;
+    padding: 50px;
+    top: 200px;
+    font-size: 20px;
+    text-align: justify;
 }
 .about img{
     opacity: 50%;
