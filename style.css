@@ -89,7 +89,7 @@ h1 {
 .book-form{
     font-size: 20px;
     background-color: antiquewhite;
-    padding: 35px;
+    padding: 25px;
     border-radius: 3%;
     position: absolute;
     top: 200px;
@@ -111,7 +111,7 @@ h1 {
 .contact-form{
     font-size: 20px;
     background-color: antiquewhite;
-    padding: 35px;
+    padding: 25px;
     border-radius: 3%;
     position: absolute;
     top: 200px;
@@ -128,7 +128,7 @@ h1 {
 .login-form{
     font-size: 20px;
     background-color: antiquewhite;
-    padding: 35px;
+    padding: 25px;
     border-radius: 3%;
     position: absolute;
     top: 200px;
@@ -152,5 +152,6 @@ h1 {
 input, textarea, button{
     font-size: 18px;
     margin-bottom: 15px;
-    padding: 5px;  
+    padding: 5px;
+    width: 250px; 
 }
