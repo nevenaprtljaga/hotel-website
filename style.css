@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
     font-family: Verdana, Tahoma, sans-serif;
 }
-h1 {
+h1{
     font-size: 22px;
 }
 .header{
@@ -37,13 +37,6 @@ h1 {
     width: 100%;
     margin-top: 50px;
 }
-.about{
-    margin-top: 50px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .about-text{
     position: absolute;
     padding: 50px;
@@ -52,22 +45,16 @@ h1 {
     text-align: justify;
     max-width: 1200px;
 }
-.about img{
+.galleryPage img{
+    width: 100%;
+    position: relative;
+}
+.bookPage img, .contactPage img, .loginPage img, .about img{
     opacity: 50%;
     width: 100%;
     position: relative;
 }
-.contactPage img{
-    opacity: 50%;
-    width: 100%;
-    position: relative;
-}
-.loginPage img{
-    opacity: 50%;
-    width: 100%;
-    position: relative;
-}
-.galleryPage {
+.contactPage, .loginPage, .bookPage, .about, .galleryPage{
     margin-top: 50px;
     min-height: 101vh;
     position: relative;
@@ -75,57 +62,7 @@ h1 {
     align-items: flex-start;
     justify-content: center;
 }
-.galleryPage img {
-    width: 100%;
-    position: relative;
-}
-.bookPage {
-    margin-top: 50px;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-.book-form{
-    font-size: 20px;
-    background-color: antiquewhite;
-    padding: 25px;
-    border-radius: 3%;
-    position: absolute;
-    top: 200px;
-    width: 300px;
-    height: 260px;
-}
-.bookPage img{
-    opacity: 50%;
-    width: 100%;
-    position: relative;
-}
-.contactPage {
-    margin-top: 50px;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-.contact-form{
-    font-size: 20px;
-    background-color: antiquewhite;
-    padding: 25px;
-    border-radius: 3%;
-    position: absolute;
-    top: 200px;
-    width: 300px;
-    height: 260px;
-}
-.loginPage{
-    margin-top: 50px;
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-.login-form{
+.login-form, .contact-form, .book-form{
     font-size: 20px;
     background-color: antiquewhite;
     padding: 25px;
@@ -144,11 +81,11 @@ h1 {
     padding: 15px;
     height: 90%;
 }
-.gallery img:hover {
+.gallery img:hover{
     z-index: 9;
     transform: scale(1.3);
     transition: transform ease 0.5s;
-  }
+}
 input, textarea, button{
     font-size: 18px;
     margin-bottom: 15px;
