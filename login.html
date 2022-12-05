@@ -3,6 +3,7 @@
     <head> 
         <title>Log in</title>
         <link rel="stylesheet" href="style.css">
+        <script defer src="login-page.js"></script>
     </head>
     <body>
         <header class="header">
@@ -20,10 +21,11 @@
             <img src="https://www.turistickisvet.com/pub/news/novi_kolaz.jpeg">
             <form class="login-form">
                 <label>Username:</label><br>
-                <input type="text"><br>
+                <input type="text" id="usernameInput"><br>
                 <label>Password:</label><br>
-                <input type="password"><br>
-                <button>Log in</button>
+                <input type="password" id="passwordInput"><br>
+                <button id="loginButton" onclick="return check();">Log in</button>
+                <button id="resetButton" onclick="reset()">Reset</button>
             </form>
         </div>
     </body>

@@ -65,7 +65,7 @@ h1{
 .login-form, .contact-form, .book-form{
     font-size: 20px;
     background-color: antiquewhite;
-    padding: 25px;
+    padding: 18px;
     border-radius: 3%;
     position: absolute;
     top: 200px;
