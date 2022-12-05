@@ -6,7 +6,7 @@ function check(){
     if(username.value === "admin" && password.value === "pass"){
         username.style.backgroundColor = "white";
         password.style.backgroundColor = "white";
-        alert("Uspesno logovanje!");
+        alert("Uspesno ste logovani!");
         return false;
     }else{
         username.style.backgroundColor = "red";
