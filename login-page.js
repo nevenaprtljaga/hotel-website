@@ -1,5 +1,3 @@
-const loginButton = document.getElementById("loginButton");
-
 function check(){
     const username = document.getElementById("usernameInput");
     const password = document.getElementById("passwordInput");

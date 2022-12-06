@@ -1,5 +1,3 @@
-const registerButton = document.getElementById("registerButton");
-
 function check(){
     const firstName = document.getElementById("firstNameInput").value;
     const lastName = document.getElementById("lastNameInput").value;
