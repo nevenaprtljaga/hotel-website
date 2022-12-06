@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html> 
     <head> 
-        <title>Log in</title>
+        <title>Sign up</title>
         <link rel="stylesheet" href="style.css">
-        <script defer src="login-page.js"></script>
+        <script defer src="register-page.js"></script>
     </head>
     <body>
         <header class="header">
@@ -17,16 +17,20 @@
                 <a href="login.html">Log in</a>
             </div>
         </header>
-        <div class="loginPage">
+        <div class="registerPage">
             <img src="https://www.turistickisvet.com/pub/news/novi_kolaz.jpeg">
-            <form class="login-form">
+            <form class="register-form">
+                <label>First name:</label><br>
+                <input type="text" id="firstNameInput"><br>
+                <label>Last name:</label><br>
+                <input type="text" id="lastNameInput"><br>
                 <label>Username:</label><br>
                 <input type="text" id="usernameInput"><br>
                 <label>Password:</label><br>
                 <input type="password" id="passwordInput"><br>
-                <button id="loginButton" onclick="return check();">Log in</button>
-                <button id="resetButton" onclick="reset()">Reset</button>
-                <label onclick="window.location.href = 'register.html'" style="cursor:pointer">Don't have an account? Sign up</label>
+                <button id="registerButton" onclick="return check();">Sign up</button><br>
+                <button id="resetButton" onclick="reset()">Reset</button><br>
+                <label onclick="window.location.href = 'login.html'" style="cursor:pointer">Have an account? Log in</label>
             </form>
         </div>
     </body>

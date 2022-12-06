@@ -6,16 +6,15 @@ function check(){
     if(username.value === "admin" && password.value === "pass"){
         username.style.backgroundColor = "white";
         password.style.backgroundColor = "white";
-        alert("Uspesno ste logovani!");
+        alert("Login successful!");
         return false;
     }else{
         username.style.backgroundColor = "red";
         password.style.backgroundColor = "red";
-        alert("Neuspesno logovanje!");
+        alert("Login unsuccessful!");
         return false;
     }
 }
-
 function reset(){
     const username = document.getElementById("usernameInput").value;
     const password = document.getElementById("passwordInput").value;
