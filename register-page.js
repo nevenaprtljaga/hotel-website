@@ -8,16 +8,17 @@ function check(){
     let testUser = {firstName: "Nevena", lastName: "Prtljaga", username: "nprtljaga", password: "np13!"};
  
     if(firstName === capitalizedFirstName  && 
-        lastName === capitalizedLastName &&
-        username != testUser.username &&
-        username.length > 3 &&
-        passwordChecker(password)){
-            alert("Successful sign up. Here is your info: First name - " + firstName + ", Last name - " + lastName + ", Username - " + username + ".");
+    lastName === capitalizedLastName &&
+    username != testUser.username &&
+    username.length > 3 &&
+    passwordChecker(password)){
+        alert("Successful sign up. Here is your info: First name - " + firstName + ", Last name - " + lastName + ", Username - " + username + ".");
         console.log("ok");
         return false;
-    }else{
-        alert("Try again, hint: First and last name should be capitalized. Username exists in db. Username has to be longer than 3 characters. " +
-          "Password has to contain at least one capitalized letter, one number and one special character.")
+    }
+    else{
+        alert("Try again, hint: First and last name should be capitalized. Username exists in db.Username has to be longer than 3 characters. " +
+        "Password has to contain at least one capitalized letter, one number and one special character.")
         console.log('failam');
         return false;
     }
